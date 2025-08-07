@@ -1,5 +1,3 @@
-# .github/workflows/checks.yml
-
 name: Checks
 
 on: [push]
@@ -8,10 +6,9 @@ jobs:
   test-lint:
     name: Test and Lint
     runs-on: ubuntu-latest
-
     steps:
       - name: 🧪 Debug: Confirm runner is alive
-        run: echo "✅ Runner is alive and workflow startedd."
+        run: echo "✅ Runner is alive and workflow started."
 
       - name: 🧪 Debug: Show Docker version
         run: docker version
