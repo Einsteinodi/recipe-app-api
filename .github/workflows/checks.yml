@@ -24,5 +24,5 @@ jobs:
       - name: Tests
         run: docker-compose run --rm app sh -c "python manage.py test"
 
-      - name: Lint test
+      - name: Lint testing
         run: docker-compose run --rm app sh -c "flake8"
