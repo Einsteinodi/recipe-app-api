@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: 🧪 Debug: Confirm runner is alive
-        run: echo "✅ Runner is alive and workflow started."
+        run: echo "✅ Runner is alive and workflow startedd."
 
       - name: 🧪 Debug: Show Docker version
         run: docker version
